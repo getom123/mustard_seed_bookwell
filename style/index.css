@@ -65,6 +65,7 @@ body{
     width: 100%;
 }
 
+
 /* loader */
 #loader {
     position: fixed;
@@ -199,6 +200,10 @@ body{
     background: var(--primary-color-light);
 }
 
+.the_categories .active{
+    background: var(--primary-color-light);
+}
+
 /*no resut  */
 .no_results {
     padding: 30px;
@@ -310,6 +315,7 @@ body{
 footer{
     background: var(--primary-bg);
     margin-top: 50px;
+    z-index: -99;
 }
 
 .footer_top{
